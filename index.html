@@ -2,13 +2,20 @@
 <html>
   <head>
 
+<style>
+video {  
+   width:100%;
+   height:auto; 
+}
+</style>
+
 <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, 
   maximum-scale=1.0, minimum-scale=1.0">
     <title>Hello World</title>
   </head>
   <body>
     <h1>Hello World</h1>
-    <video controls autoplay loop> //control이 표시되며 저절로 재생되고 반복재생된다. 
+    <video controls preload="metadata"> //control이 표시되며 저절로 재생되고 반복재생된다. 
    <source src="IMG_5386.mp4" type="video/mp4"> 
    IE 8 이하는 비디오가 나오지 않습니다. IE 버전을 업데이트 하시길 바랍니다. 
 </video>
