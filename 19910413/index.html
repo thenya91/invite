@@ -7,9 +7,8 @@
 				width:100%;
 				height:auto; 
 			}
-			h1,h2 {
+			h1,h2,h3 {
 				text-align:center;
-				color:white;
 			}
 			h1 span{
 				color: green;
@@ -17,8 +16,15 @@
 			body {
 				background-color:red;
 			}
+			div {
+				color: white;
+				margin-bottom : 50px;
+			}
 			img {
 				width:100%;
+			}
+			dt {
+				font-weight: bold;
 			}
 		</style>
 
@@ -26,12 +32,32 @@
 		<title>2019크리스마스초대장</title>
 	</head>
 	<body>
-		<h1>🔥2019 <span>크리스마스</span> 파티🔥</h1>
-		<h2>~마지막 20대 for 민아~</h2>
-		<video controls autoplay muted playsinline loop>
-			<source src="../videos/19910413.mp4" type="video/mp4"> 
-			IE 8 이하는 비디오가 나오지 않습니다. IE 버전을 업데이트 하시길 바랍니다. 
-		</video>
-		<img src="../images/main.gif"/>
+		<div id="intro">
+			<h1>🔥<span>2019</span> 크리스마스 <span>파티</span>🔥</h1>
+			<h2>~마지막 20대 for 민아~</h2>
+			<video controls autoplay muted playsinline loop>
+				<source src="../videos/19910413.mp4" type="video/mp4"> 
+				IE 8 이하는 비디오가 나오지 않습니다. IE 버전을 업데이트 하시길 바랍니다. 
+			</video>
+		<div>
+		<div id="place">
+			<h3>🏠 장소 🏠</h3>
+			<dt>🎄계룡산 해피투게더 산수유(202호)</dt>
+			<dd>충남 공주시 반포면 동학사2로 12</dd>
+		</div>
+		<div id="programs">
+			<h3>📝 프로그램 📝</h3>
+			
+			<dt>🤹‍ 라탄 공장 취업하기..</dt>
+			<dd><img src="../images/latanhell.jpg"/></dd>
+			<dt>📽 케빈과 함께 보내는 영화감상..</dt>
+			<dd><img src="../images/homealone.jpg"/></dd>
+			<dt>🍷 푸드와 즐기는 와인 타임..</dt>
+			<dd><img src="../images/winetime.jpg"/></dd>
+		</div>
+		<div id="main">
+			<img src="../images/main.gif"/>
+		</div>
+		
 	</body>
 </html>
